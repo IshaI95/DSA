@@ -20,5 +20,5 @@ def bubbleSort(lst):
             return
     return lst
 
-list = [90, 13, 27, 21, 35, 10]
-print(bubbleSort(list))
+lst = [90, 13, 27, 21, 35, 10]
+print("Sorted List: " + str(bubbleSort(lst)))
